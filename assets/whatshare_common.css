@@ -1,0 +1,47 @@
+@media only screen and (min-width:1281px) {
+      .whatshare-mobile {
+          display:none !important;
+      }
+      .whatshare-desktop {
+          display:block !important;
+      }
+  }
+
+@media only screen and (max-width: 1280px) {
+    .whatshare-mobile {
+        display:block !important;
+    }
+    .whatshare-desktop {
+        display: none !important;
+    }
+}
+
+.whatshare-mobile, .whatshare-desktop {
+  background-color: #51A419;
+  box-sizing: initial;
+  color: #fff;
+  display: ;
+  font-family: ;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 28px;
+  text-align: center;
+  text-decoration: none;
+  font-size: ;
+  width: 35px;
+  height: 35px;
+  position: static;
+  top: auto;
+  left: auto;
+  float: none;
+}
+.whatshare-mobile img, .whatshare-desktop img {
+    height: ;
+    max-height: 95%;
+    width:  ;
+    max-width:  95%;
+    vertical-align:  middle;
+}
+
+ 
